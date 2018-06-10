@@ -29,7 +29,7 @@
     <!-- spring工具类 -->
     <!--<bean class="com.mass.base.util.SpringUtil"/>-->
     <!-- 导入jdbc相关的配置文件-->
-    <!--<import resource="applicationContext-jdbc.xml"/>-->
+    <import resource="applicationContext-jdbc.xml"/>
     <!-- 导入redis相关的配置文件 -->
     <!--<import resource="applicationContext-redis.xml"/>-->
     <!-- shiro相关的配置文件 -->
